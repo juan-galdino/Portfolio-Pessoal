@@ -4,10 +4,12 @@ import { DemoBtn } from './DemoBtn'
 
 export function ProjectCard(props) {
   return (
-    <article className="max-w-400">
-      <img src={props.projectImage} alt={props.alt} loading='lazy' />
-      <div className="py-4 pl-4">
-        <h3 className="text-2xl text-blue-800 font-semibold">
+    <article className="max-w-100 text-left shadow-md rounded">
+      <div className='flex flex-col justify-center'>
+        <img className='h-72 rounded' src={props.projectImage} alt={props.alt} loading='lazy' />
+      </div>
+      <div className="pt-4 pl-4">
+        <h3 className="text-2xl text-blue-800 font-semibold mb-2">
           {props.title}
         </h3>
         <div className="flex flex-wrap gap-1">
