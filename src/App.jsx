@@ -2,6 +2,7 @@ import selfPicture from './images/self-picture.webp'
 import projectImage1 from './images/interactive-component-project.webp'
 import projectImage2 from './images/alura-challenge-project.webp'
 import { ProjectCard } from './components/ProjectCard'
+import { Skill } from './components/Skill'
 
 function App() {
   return (
@@ -97,13 +98,21 @@ function App() {
           </article>
         </section>
         <section className="px-4">
-          <h2 className="text-2xl font-semibold text-center lg:text-left">
+          <h2 className="text-2xl font-semibold text-center mb-4 lg:text-left">
             Minhas experiências incluem mas não me limito
           </h2>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+          <article className="flex flex-wrap gap-1">
+            <Skill>HTML</Skill>
+            <Skill>CSS</Skill>
+            <Skill>Javascript</Skill>
+            <Skill>npm</Skill>
+            <Skill>Sass</Skill>
+            <Skill>Vitejs</Skill>
+            <Skill>React</Skill>
+            <Skill>Git</Skill>
+            <Skill>UI Design</Skill>
+            <Skill>TailwindCSS</Skill>
+          </article>
         </section>
         <section className="px-4">
           <h2>Vamos conversar!</h2>
