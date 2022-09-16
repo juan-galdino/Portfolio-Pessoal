@@ -18,7 +18,7 @@ function App() {
         </nav> */}
       </header>
       <main className='text-center max-w-4xl mx-auto lg:text-left'>
-        <section className="px-4">
+        <section>
           <h1 className="text-5xl font-bold mb-4 ">Sou Juan Galdino</h1>
           <p className="text-2xl font-semibold  " >
             <span className=" text-blue-800">Desenvolvedor Front End</span>. Dou
@@ -97,7 +97,7 @@ function App() {
             </div>
           </article>
         </section>
-        <section className="px-4">
+        <section>
           <h2 className="text-2xl font-semibold text-center mb-4 lg:text-left">
             Minhas experiências incluem mas não me limito
           </h2>
@@ -114,7 +114,7 @@ function App() {
             <Skill>TailwindCSS</Skill>
           </article>
         </section>
-        <section className="px-4">
+        <section>
           <h2>Vamos conversar!</h2>
           <form action=""></form>
         </section>
