@@ -5,7 +5,7 @@ import { ProjectCard } from './components/ProjectCard'
 
 function App() {
   return (
-    <div className="flex flex-col text-neutral-800 px-4">
+    <div className="flex flex-col text-neutral-800 0sm:px-4 ">
       <header>
         {/* <nav>
           <ul>

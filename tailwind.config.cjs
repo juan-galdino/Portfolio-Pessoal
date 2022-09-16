@@ -13,6 +13,7 @@ module.exports = {
         100: '25rem'
       },
       screens: {
+        '0sm': '20.25em',
         '2md': '56.5em'
       }
     }
