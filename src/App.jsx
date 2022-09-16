@@ -65,7 +65,7 @@ function App() {
           </div>
         </section>
 
-        <section className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:gap-x-24 bg-blue-50">
+        <section className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:gap-x-24 bg-blue-50 mb-12">
           <div>
             <img
               className="max-w-72"
