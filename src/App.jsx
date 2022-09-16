@@ -33,10 +33,10 @@ function App() {
         </section>
 
         <section>
-          <h2 className="text-5xl font-bold mb-4 text-blue-800">
+          <h2 className="text-5xl font-bold mb-8 text-blue-800">
             Ultimos Projetos
           </h2>
-          <div className='grid gap-24 justify-center 2md:grid-cols-2'>
+          <div className='grid gap-12 justify-center 2md:grid-cols-2 2md:gap-24'>
 
             <ProjectCard
               projectImage={projectImage1}
