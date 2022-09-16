@@ -80,9 +80,7 @@ function App() {
                 Sou Juan Galdino
               </h2>
               <p>
-                Trabalho com React e TailwindCSS rotineiramente e tive
-                experiência liderando e participando de projetos com colegas
-                durante a faculdade.
+                Trabalho com React e TailwindCSS rotineiramente e tive experiências liderando e participando de projetos pessoais e também com colegas.
               </p>
             </div>
             <div>
@@ -92,7 +90,7 @@ function App() {
               <p>
                 Frontend é minha verdadeira paixão e gosto muito de todo o
                 processo de criação de UIs e ciclos de vidas de produtos, desde
-                o primeiro brainstorming, wireframes, protótipos,
+                o primeiro brainstorming, definir backlog, wireframes, protótipos,
                 desenvolvimento, manutenção até o produto final.
               </p>
             </div>
