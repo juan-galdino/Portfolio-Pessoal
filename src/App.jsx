@@ -32,7 +32,7 @@ function App() {
           </ul>
         </section>
 
-        <section>
+        <section className='mb-28'>
           <h2 className="text-5xl font-bold mb-8 text-blue-800">
             Ultimos Projetos
           </h2>
