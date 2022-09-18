@@ -8,17 +8,17 @@ function App() {
   return (
     <div className="flex flex-col text-neutral-800 0sm:px-4 ">
       <header>
-        {/* <nav>
-          <ul>
-            <li>Início</li>
-            <li>Projetos</li>
-            <li>Sobre mim</li>
-            <li>Contato</li>
+        <nav>
+          <ul className="flex gap-4 max-w-4xl mx-auto justify-end mb-12 text-blue-800">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#latest-projects">Projetos</a></li>
+            <li><a href="#about-me">Sobre mim</a></li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
-        </nav> */}
+        </nav>
       </header>
       <main className='text-center max-w-4xl mx-auto lg:text-left'>
-        <section>
+        <section id="home">
           <h1 className="text-5xl font-bold mb-4 ">Sou Juan Galdino</h1>
           <p className="text-2xl font-semibold  " >
             <span className=" text-blue-800">Desenvolvedor Front End</span>. Dou
@@ -77,7 +77,7 @@ function App() {
           </div>
         </section>
 
-        <section className='mb-28'>
+        <section id="latest-projects" className='mb-28'>
           <h2 className="text-5xl font-bold mb-8 text-blue-800">
             Ultimos Projetos
           </h2>
@@ -108,7 +108,7 @@ function App() {
           </div>
         </section>
 
-        <section className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:gap-x-24 bg-blue-50 mb-12">
+        <section id="about-me" className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:gap-x-24 bg-blue-50 mb-12">
           <div>
             <img
               className="max-w-72"
@@ -157,7 +157,7 @@ function App() {
             <Skill>TailwindCSS</Skill>
           </article>
         </section>
-        <section>
+        <section id="contact">
           <h2>Vamos conversar!</h2>
           <form action=""></form>
         </section>
