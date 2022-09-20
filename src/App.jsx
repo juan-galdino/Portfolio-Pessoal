@@ -3,6 +3,7 @@ import projectImage1 from "./images/interactive-component-project.webp";
 import projectImage2 from "./images/alura-challenge-project.webp";
 import { ProjectCard } from "./components/ProjectCard";
 import { Skill } from "./components/Skill";
+import { Form } from "./components/Form"
 
 function App() {
   return (
@@ -142,7 +143,7 @@ function App() {
             </div>
           </article>
         </section>
-        <section>
+        <section className="mb-24">
           <h2 className="text-2xl font-semibold text-center mb-4 lg:text-left">
             Minhas experiências incluem mas não me limito
           </h2>
@@ -159,9 +160,9 @@ function App() {
             <Skill>TailwindCSS</Skill>
           </article>
         </section>
-        <section id="contact">
-          <h2>Vamos conversar!</h2>
-          <form action=""></form>
+        <section id="contact" className="max-w-md mx-auto">
+          <h2 className="text-3xl font-bold mb-8 ">Vamos conversar!</h2>
+          <Form />
         </section>
       </main>
       <footer className="flex justify-center">
