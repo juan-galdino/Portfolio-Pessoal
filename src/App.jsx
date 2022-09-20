@@ -19,62 +19,64 @@ function App() {
       </header>
       <main className='text-center max-w-4xl mx-auto lg:text-left'>
         <section id="home">
-          <h1 className="text-5xl font-bold mb-4 ">Sou Juan Galdino</h1>
-          <p className="text-2xl font-semibold  " >
-            <span className=" text-blue-800">Desenvolvedor Front End</span>. Dou
-            vida a sites modernos, responsivos, inclusivos e atrativos para toda
-            a internet.
-          </p>
-          <div className="mt-8 mb-24">
-            <ul className="flex gap-12 justify-center lg:justify-start">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/juan-galdino-da-costa-e-silva/"
-                  target="_blank"
-                >
-                  <i>
-                    <svg
-                      className="group"
-                      width="40"
-                      height="38"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="fill-blue-800 group-hover:fill-blue-600"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M1.01 12.48h7.796v24.702H1.009V12.48zm3.699-3.09h-.056C1.83 9.39 0 7.5 0 5.106 0 2.667 1.884.818 4.763.818c2.876 0 4.645 1.844 4.7 4.282 0 2.394-1.824 4.29-4.755 4.29zM40 37.181h-8.844V24.398c0-3.346-1.383-5.63-4.423-5.63-2.326 0-3.62 1.542-4.222 3.027-.226.533-.188 1.276-.188 2.019v13.368h-8.757V12.478h8.758v3.877c.517-1.695 3.315-4.114 7.782-4.114 5.54 0 9.894 3.553 9.894 11.205v13.736z"
-                        fill="#007EBB"
-                      />
-                    </svg>
-                  </i>
-                </a>
-              </li>
+          <article className="xl:ml-17/100">
+            <h1 className="text-5xl font-bold mb-4">Sou Juan Galdino</h1>
+            <p className="text-2xl font-semibold" >
+              <span className=" text-blue-800">Desenvolvedor Front End</span>. Dou
+              vida a sites modernos, responsivos, inclusivos e atrativos para toda
+              a internet.
+            </p>
+            <div className="mt-8 mb-24">
+              <ul className="flex gap-12 justify-center lg:justify-start">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/juan-galdino-da-costa-e-silva/"
+                    target="_blank"
+                  >
+                    <i>
+                      <svg
+                        className="group"
+                        width="40"
+                        height="38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          className="fill-blue-800 group-hover:fill-blue-600"
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M1.01 12.48h7.796v24.702H1.009V12.48zm3.699-3.09h-.056C1.83 9.39 0 7.5 0 5.106 0 2.667 1.884.818 4.763.818c2.876 0 4.645 1.844 4.7 4.282 0 2.394-1.824 4.29-4.755 4.29zM40 37.181h-8.844V24.398c0-3.346-1.383-5.63-4.423-5.63-2.326 0-3.62 1.542-4.222 3.027-.226.533-.188 1.276-.188 2.019v13.368h-8.757V12.478h8.758v3.877c.517-1.695 3.315-4.114 7.782-4.114 5.54 0 9.894 3.553 9.894 11.205v13.736z"
+                          fill="#007EBB"
+                        />
+                      </svg>
+                    </i>
+                  </a>
+                </li>
 
-              <li>
-                <a href="https://github.com/juan-galdino" target="_blank">
-                  <i>
-                    <svg
-                      className="group"
-                      width="40"
-                      height="40"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="fill-blue-800 group-hover:fill-blue-600"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M19.999.417C8.955.417 0 9.407 0 20.497c0 8.87 5.73 16.396 13.679 19.051 1 .188 1.365-.435 1.365-.967l-.028-3.415C9.453 36.38 8.28 32.474 8.28 32.474c-.909-2.318-2.22-2.936-2.22-2.936-1.817-1.246.137-1.221.137-1.221 2.007.142 3.063 2.07 3.063 2.07 1.785 3.068 4.681 2.182 5.821 1.667.181-1.297.699-2.182 1.27-2.687-4.441-.507-9.11-2.23-9.11-9.923 0-2.193.779-3.985 2.059-5.389-.207-.508-.893-2.549.195-5.313 0 0 1.68-.54 5.5 2.058A19.14 19.14 0 0 1 20 10.123a19.16 19.16 0 0 1 5.008.677c3.817-2.598 5.494-2.058 5.494-2.058 1.09 2.764.404 4.805.198 5.313 1.283 1.404 2.056 3.196 2.056 5.389 0 7.712-4.676 9.41-9.13 9.908.717.62 1.357 1.844 1.357 3.718l-.025 5.508c0 .538.36 1.163 1.375.965A20.072 20.072 0 0 0 40 20.497C40 9.407 31.045.417 19.999.417z"
-                        fill="#3E75C3"
-                      />
-                    </svg>
-                  </i>
-                </a>
-              </li>
-            </ul>
-          </div>
+                <li>
+                  <a href="https://github.com/juan-galdino" target="_blank">
+                    <i>
+                      <svg
+                        className="group"
+                        width="40"
+                        height="40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          className="fill-blue-800 group-hover:fill-blue-600"
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M19.999.417C8.955.417 0 9.407 0 20.497c0 8.87 5.73 16.396 13.679 19.051 1 .188 1.365-.435 1.365-.967l-.028-3.415C9.453 36.38 8.28 32.474 8.28 32.474c-.909-2.318-2.22-2.936-2.22-2.936-1.817-1.246.137-1.221.137-1.221 2.007.142 3.063 2.07 3.063 2.07 1.785 3.068 4.681 2.182 5.821 1.667.181-1.297.699-2.182 1.27-2.687-4.441-.507-9.11-2.23-9.11-9.923 0-2.193.779-3.985 2.059-5.389-.207-.508-.893-2.549.195-5.313 0 0 1.68-.54 5.5 2.058A19.14 19.14 0 0 1 20 10.123a19.16 19.16 0 0 1 5.008.677c3.817-2.598 5.494-2.058 5.494-2.058 1.09 2.764.404 4.805.198 5.313 1.283 1.404 2.056 3.196 2.056 5.389 0 7.712-4.676 9.41-9.13 9.908.717.62 1.357 1.844 1.357 3.718l-.025 5.508c0 .538.36 1.163 1.375.965A20.072 20.072 0 0 0 40 20.497C40 9.407 31.045.417 19.999.417z"
+                          fill="#3E75C3"
+                        />
+                      </svg>
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
         </section>
 
         <section id="latest-projects" className='mb-28'>
