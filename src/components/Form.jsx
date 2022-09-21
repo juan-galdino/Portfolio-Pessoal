@@ -1,3 +1,5 @@
+import { SendBtn } from "./SendBtn"
+
 export function Form() {
   return (
     <article>
@@ -102,7 +104,9 @@ export function Form() {
           >
           </textarea>
         </div>
-
+        <div className="flex justify-end mt-4">
+          <SendBtn />
+        </div>
       </form>
     </article>
   )

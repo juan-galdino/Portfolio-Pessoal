@@ -160,7 +160,7 @@ function App() {
             <Skill>TailwindCSS</Skill>
           </article>
         </section>
-        <section id="contact" className="max-w-md mx-auto">
+        <section id="contact" className="max-w-md mx-auto mb-32">
           <h2 className="text-3xl font-bold mb-8 ">Vamos conversar!</h2>
           <Form />
         </section>
