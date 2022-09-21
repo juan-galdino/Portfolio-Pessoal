@@ -19,7 +19,8 @@ module.exports = {
         '2md': '56.5em'
       },
       backgroundImage: {
-        'hero-pattern': "url('./src/images/hello-hand.webp')"
+        'hero-pattern': "url('./src/images/hello-hand.webp')",
+        'form-hand': "url('./src/images/hand-at-forms.webp')"
       }
     }
   },
