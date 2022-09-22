@@ -1,6 +1,20 @@
 export function DemoBtn(props) {
   return (
-    <button className="group hover:text-white hover:bg-green-700 flex gap-1 p-2 items-center font-medium  transition duration-200 hover:ease-out">
+    <button
+      className="
+      group 
+      hover:text-white 
+      hover:bg-green-700 
+      flex 
+      gap-1 
+      p-2 
+      items-center 
+      font-medium  
+      transition 
+      duration-200 
+      hover:ease-out
+      "
+    >
       <svg
         width="24"
         height="20"
@@ -13,7 +27,9 @@ export function DemoBtn(props) {
           fill="#211B12"
         />
       </svg>
-      <a href={props.url} target="_blank">Demonstração</a>
+      <a href={props.url} target="_blank">
+        Demonstração
+      </a>
     </button>
   )
 }

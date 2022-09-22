@@ -1,9 +1,9 @@
-import selfPicture from "./images/self-picture.webp";
-import projectImage1 from "./images/interactive-component-project.webp";
-import projectImage2 from "./images/alura-challenge-project.webp";
-import { ProjectCard } from "./components/ProjectCard";
-import { Skill } from "./components/Skill";
-import { Form } from "./components/Form"
+import selfPicture from './images/self-picture.webp'
+import projectImage1 from './images/interactive-component-project.webp'
+import projectImage2 from './images/alura-challenge-project.webp'
+import { ProjectCard } from './components/ProjectCard'
+import { Skill } from './components/Skill'
+import { Form } from './components/Form'
 
 function App() {
   return (
@@ -11,21 +11,29 @@ function App() {
       <header>
         <nav>
           <ul className="flex gap-4 max-w-4xl mx-auto justify-end mb-12 text-blue-800">
-            <li><a href="#home">Início</a></li>
-            <li><a href="#latest-projects">Projetos</a></li>
-            <li><a href="#about-me">Sobre mim</a></li>
-            <li><a href="#contact">Contato</a></li>
+            <li>
+              <a href="#home">Início</a>
+            </li>
+            <li>
+              <a href="#latest-projects">Projetos</a>
+            </li>
+            <li>
+              <a href="#about-me">Sobre mim</a>
+            </li>
+            <li>
+              <a href="#contact">Contato</a>
+            </li>
           </ul>
         </nav>
       </header>
-      <main className='text-center max-w-4xl mx-auto lg:text-left'>
+      <main className="text-center max-w-4xl mx-auto lg:text-left">
         <section id="home">
           <article className="xl:ml-17/100">
             <h1 className="text-5xl font-bold mb-4">Sou Juan Galdino</h1>
-            <p className="text-2xl font-semibold" >
-              <span className=" text-blue-800">Desenvolvedor Front End</span>. Dou
-              vida a sites modernos, responsivos, inclusivos e atrativos para toda
-              a internet.
+            <p className="text-2xl font-semibold">
+              <span className=" text-blue-800">Desenvolvedor Front End</span>.
+              Dou vida a sites modernos, responsivos, inclusivos e atrativos
+              para toda a internet.
             </p>
             <div className="mt-8 mb-24">
               <ul className="flex gap-12 justify-center lg:justify-start">
@@ -80,12 +88,11 @@ function App() {
           </article>
         </section>
 
-        <section id="latest-projects" className='mb-28'>
+        <section id="latest-projects" className="mb-28">
           <h2 className="text-5xl font-bold mb-8 text-blue-800">
             Ultimos Projetos
           </h2>
-          <div className='grid gap-12 justify-center 2md:grid-cols-2 2md:gap-24'>
-
+          <div className="grid gap-12 justify-center 2md:grid-cols-2 2md:gap-24">
             <ProjectCard
               projectImage={projectImage1}
               alt="Foto do projeto mais recente"
@@ -111,7 +118,10 @@ function App() {
           </div>
         </section>
 
-        <section id="about-me" className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:gap-x-24 bg-blue-50 mb-12">
+        <section
+          id="about-me"
+          className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:gap-x-24 bg-blue-50 mb-12"
+        >
           <div>
             <img
               className="max-w-72"
@@ -127,7 +137,9 @@ function App() {
                 Sou Juan Galdino
               </h2>
               <p>
-                Trabalho com React e TailwindCSS rotineiramente e tive experiências liderando e participando de projetos pessoais e também com colegas.
+                Trabalho com React e TailwindCSS rotineiramente e tive
+                experiências liderando e participando de projetos pessoais e
+                também com colegas.
               </p>
             </div>
             <div>
@@ -137,8 +149,8 @@ function App() {
               <p>
                 Frontend é minha verdadeira paixão e gosto muito de todo o
                 processo de criação de UIs e ciclos de vidas de produtos, desde
-                o primeiro brainstorming, definir backlog, wireframes, protótipos,
-                desenvolvimento, manutenção até o produto final.
+                o primeiro brainstorming, definir backlog, wireframes,
+                protótipos, desenvolvimento, manutenção até o produto final.
               </p>
             </div>
           </article>

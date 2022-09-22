@@ -1,6 +1,20 @@
 export function CodeBtn(props) {
   return (
-    <button className="group hover:text-white hover:bg-blue-800 flex gap-1 p-2 items-center font-medium transition duration-200 hover:ease-out">
+    <button
+      className="
+        group 
+        hover:text-white 
+        hover:bg-blue-800 
+        flex 
+        gap-1 
+        p-2 
+        items-center 
+        font-medium 
+        transition 
+        duration-200 
+        hover:ease-out
+      "
+    >
       <svg
         width="20"
         height="12"
@@ -13,7 +27,9 @@ export function CodeBtn(props) {
           fill="#211B12"
         />
       </svg>
-      <a href={props.url} target="_blank">Código</a>
+      <a href={props.url} target="_blank">
+        Código
+      </a>
     </button>
   )
 }
