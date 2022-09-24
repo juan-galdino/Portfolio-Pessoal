@@ -159,7 +159,7 @@ function App() {
           <h2 className="text-2xl font-semibold text-center mb-4 lg:text-left">
             Minhas experiências incluem mas não me limito
           </h2>
-          <article className="flex flex-wrap gap-1">
+          <article className="flex flex-wrap gap-1 justify-center lg:justify-start">
             <Skill>HTML</Skill>
             <Skill>CSS</Skill>
             <Skill>Javascript</Skill>
