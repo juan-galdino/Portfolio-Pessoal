@@ -10,7 +10,7 @@ function App() {
     <div className="flex flex-col text-neutral-800 0sm:px-4 ">
       <header>
         <nav>
-          <ul className="flex gap-4 max-w-4xl mx-auto justify-end mb-12 text-blue-800">
+          <ul className="flex gap-4 max-w-4xl mx-auto justify-end mb-10 text-blue-800">
             <li>
               <a href="#home">Início</a>
             </li>
