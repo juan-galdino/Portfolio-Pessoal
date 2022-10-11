@@ -162,7 +162,7 @@ function App() {
         </section>
         <section className="mb-24">
           <h2 className="text-2xl font-semibold text-center mb-4 lg:text-left">
-            Minhas experiências incluem mas não me limito
+            Minhas habilidades incluem mas não me limito
           </h2>
           <article className="flex flex-wrap gap-1 justify-center lg:justify-start">
             <Skill>HTML</Skill>
