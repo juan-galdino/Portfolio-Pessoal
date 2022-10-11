@@ -137,21 +137,26 @@ function App() {
                 Sou Juan Galdino
               </h2>
               <p>
-                Trabalho com React e TailwindCSS rotineiramente e tive
-                experiências liderando e participando de projetos pessoais e
-                também com colegas.
+                Entre amigos e familiares, sou o cara da tecnologia. Meu hobbie é praticar esportes, principalmente os coletivos em que o resultado de um jogo pode mudar devido a pequenos detalhes e também pelas estratégias corretas.  ⚽  🤾‍  ⛹️‍️
               </p>
             </div>
             <div>
               <h3 className="text-2xl text-blue-800 mb-4">
-                Planejar, Codificar, Aprender e Partilhar.
+                Planejar, Estudar, Aprender e Partilhar.
               </h3>
-              <p>
-                Frontend é minha verdadeira paixão e gosto muito de todo o
-                processo de criação de UIs e ciclos de vidas de produtos, desde
-                o primeiro brainstorming, definir backlog, wireframes,
-                protótipos, desenvolvimento, manutenção até o produto final.
-              </p>
+              <div className='flex flex-col gap-6'>
+                <p>
+                  <strong>Frontend</strong> é minha verdadeira <strong>paixão.</strong> Desde criança, possuía um <strong>olhar crítico</strong> em tudo que englobava <strong>interação entre usuário e software.</strong> Também foco em meus estudos sobre as melhores formas de <strong>planejar</strong> um projeto, pois permite uma melhor experiência na <strong>execução e na manutenção.</strong> Meu <strong>maior e audacioso objetivo</strong> é ajudar pessoas a integrarem na área da tecnologia e apoiá-las para serem influentes no mercado.
+                </p>
+
+                <p>
+                  Sou muito interessado em assuntos do meio tecnológico e levo a sério a <strong>experiência de usuário</strong> para que seja sempre a melhor possível.
+                </p>
+
+                <p>
+                  Aprender coisas novas tornam o meu dia a dia mais emocionante e a cada vez que aprendo, tenho muito prazer em <strong>compartilhar</strong> com colegas de equipe cada <strong>aprendizado.</strong>
+                </p>
+              </div>
             </div>
           </article>
         </section>
