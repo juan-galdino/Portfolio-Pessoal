@@ -146,7 +146,7 @@ function App() {
               </h3>
               <div className='flex flex-col gap-6'>
                 <p>
-                  <strong>Frontend</strong> é minha verdadeira <strong>paixão.</strong> Desde criança, possuía um <strong>olhar crítico</strong> em tudo que englobava <strong>interação entre usuário e software.</strong> Também foco em meus estudos sobre as melhores formas de <strong>planejar</strong> um projeto, pois permite uma melhor experiência na <strong>execução e na manutenção.</strong> Meu <strong>maior e audacioso objetivo</strong> é ajudar pessoas a integrarem na área da tecnologia e apoiá-las para serem influentes no mercado.
+                  <strong>Frontend</strong> é minha verdadeira <strong>paixão.</strong> Desde criança, possuía um <strong>olhar crítico</strong> em tudo que englobava <strong>interação entre usuário e software.</strong> Também foco em meus estudos sobre as melhores formas de <strong>planejar</strong> um projeto, pois permite uma melhor experiência na <strong>execução e na manutenção</strong>.
                 </p>
 
                 <p>
