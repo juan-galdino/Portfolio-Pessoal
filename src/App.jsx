@@ -28,7 +28,7 @@ function App() {
             <h1 className="text-5xl font-bold mb-4">Sou Juan Galdino</h1>
             <p className="text-2xl font-semibold">
               <span className=" text-blue-800">Desenvolvedor Front End</span>.
-              Dou vida a sites modernos, responsivos, inclusivos e atrativos
+              Dou vida a sites modernos, responsivos e atrativos
               para toda a internet.
             </p>
             <div className="mt-8 mb-24">
@@ -86,7 +86,7 @@ function App() {
 
         <section id="latest-projects" className="mb-28">
           <h2 className="text-5xl font-bold mb-8 text-blue-800">
-            Ultimos Projetos
+            Últimos Projetos
           </h2>
           <div className="grid gap-12 justify-center 2md:grid-cols-2 2md:gap-24">
             <ProjectCard
@@ -133,7 +133,7 @@ function App() {
                 Sou Juan Galdino
               </h2>
               <p>
-                Entre amigos e familiares, sou o cara da tecnologia. Meu hobbie é praticar esportes, principalmente os coletivos em que o resultado de um jogo pode mudar devido a pequenos detalhes e também pelas estratégias corretas.  ⚽  🤾‍  ⛹️‍️
+                Entre amigos e familiares, sou o cara da tecnologia. Meu hobbie é praticar esportes, principalmente os coletivos em que o resultado de um jogo pode mudar devido aos detalhes e também pelas estratégias corretas.
               </p>
             </div>
             <div>
@@ -142,7 +142,7 @@ function App() {
               </h3>
               <div className='flex flex-col gap-6'>
                 <p>
-                  <strong>Frontend</strong> é minha verdadeira <strong>paixão.</strong> Desde criança, possuía um <strong>olhar crítico</strong> em tudo que englobava <strong>interação entre usuário e software.</strong> Também foco em meus estudos sobre as melhores formas de <strong>planejar</strong> um projeto, pois permite uma melhor experiência na <strong>execução e na manutenção</strong>.
+                  <strong>Tecnologia</strong> é minha verdadeira <strong>paixão.</strong> Desde criança, possuía um <strong>olhar crítico</strong> em tudo que englobava <strong>interação entre usuário e software.</strong> Estou sempre curioso sobre formas de <strong>planejar</strong> um projeto, pois permite uma melhor experiência na <strong>execução e na manutenção</strong>.
                 </p>
 
                 <p>
