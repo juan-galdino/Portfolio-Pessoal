@@ -3,7 +3,6 @@ import projectImage1 from './images/interactive-component-project.webp'
 import projectImage2 from './images/alura-challenge-project.webp'
 import { ProjectCard } from './components/ProjectCard'
 import { Skill } from './components/Skill'
-import { Form } from './components/Form'
 
 function App() {
   return (
@@ -19,9 +18,6 @@ function App() {
             </li>
             <li>
               <a href="#about-me">Sobre mim</a>
-            </li>
-            <li>
-              <a href="#contact">Contato</a>
             </li>
           </ul>
         </nav>
@@ -167,19 +163,17 @@ function App() {
           <article className="flex flex-wrap gap-1 justify-center lg:justify-start">
             <Skill>HTML</Skill>
             <Skill>CSS</Skill>
-            <Skill>Javascript</Skill>
-            <Skill>npm</Skill>
+            <Skill>JavaScript</Skill>
+            <Skill>TypeScript</Skill>
             <Skill>Sass</Skill>
             <Skill>Vitejs</Skill>
             <Skill>React</Skill>
+            <Skill>Angular</Skill>
+            <Skill>Angular Material</Skill>
             <Skill>Git</Skill>
-            <Skill>UI Design</Skill>
+            <Skill>Figma</Skill>
             <Skill>TailwindCSS</Skill>
           </article>
-        </section>
-        <section id="contact" className="max-w-md mx-auto mb-32">
-          <h2 className="text-3xl font-bold mb-8 ">Vamos conversar!</h2>
-          <Form />
         </section>
       </main>
       <footer className="flex justify-center">
