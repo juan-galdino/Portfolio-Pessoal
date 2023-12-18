@@ -1,16 +1,16 @@
-import selfPicture from './images/self-picture.webp'
+import foto from './images/foto.webp'
 import projectImage1 from './images/interactive-component-project.webp'
 import projectImage2 from './images/alura-challenge-project.webp'
+import galeriaVirtual from './images/galeria-virtual.webp'
 import { ProjectCard } from './components/ProjectCard'
 import { Skill } from './components/Skill'
-import { Form } from './components/Form'
 
 function App() {
   return (
     <div className="flex flex-col text-neutral-800 0sm:px-4 ">
       <header>
         <nav>
-          <ul className="flex gap-4 max-w-4xl mx-auto justify-end mb-10 text-blue-800">
+          <ul className="flex gap-4 max-w-4xl mx-auto justify-end mb-10 text-blue-800 text-2xl">
             <li>
               <a href="#home">Início</a>
             </li>
@@ -20,15 +20,12 @@ function App() {
             <li>
               <a href="#about-me">Sobre mim</a>
             </li>
-            <li>
-              <a href="#contact">Contato</a>
-            </li>
           </ul>
         </nav>
       </header>
       <main className="text-center max-w-4xl mx-auto lg:text-left">
         <section id="home">
-          <article className="xl:ml-17/100">
+          <article>
             <h1 className="text-5xl font-bold mb-4">Sou Juan Galdino</h1>
             <p className="text-2xl font-semibold">
               <span className=" text-blue-800">Desenvolvedor Front End</span>.
@@ -39,7 +36,7 @@ function App() {
               <ul className="flex gap-12 justify-center lg:justify-start">
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/juan-galdino-da-costa-e-silva/"
+                    href="https://www.linkedin.com/in/juangaldino/"
                     target="_blank"
                   >
                     <i>
@@ -94,10 +91,19 @@ function App() {
           </h2>
           <div className="grid gap-12 justify-center 2md:grid-cols-2 2md:gap-24">
             <ProjectCard
+              projectImage={galeriaVirtual}
+              alt="Foto do projeto galeria virtual"
+              title="Galeria Virtual | App Web"
+              skills={['Angular', 'TypeScript', 'Sass', 'Git', 'Firebase']}
+              text="Web App responsivo que permite que usuários armazenem gratuitamente imagens do celular, tablet ou computador de forma online."
+              urlCodeBtn="https://github.com/juan-galdino/image-galery"
+              urlDemoBtn="https://image-galery-ng.web.app/"
+            />
+            <ProjectCard
               projectImage={projectImage1}
               alt="Foto do projeto mais recente"
               title="Componente de Avaliação"
-              skills={['HTML', 'CSS', 'Javascript', 'Sass', 'Vitejs', 'React']}
+              skills={['HTML', 'CSS', 'Javascript', 'Sass', 'React']}
               text="Componente interativo de avaliação para qualquer serviço. Foi
               construído com o objetivo de dar os primeiros passos com React."
               urlCodeBtn="https://github.com/juan-galdino/comecando-com-react"
@@ -120,12 +126,12 @@ function App() {
 
         <section
           id="about-me"
-          className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:gap-x-24 bg-blue-50 mb-12"
+          className="flex flex-col justify-center items-center lg:flex-row lg:gap-x-24 bg-blue-50 mb-12 rounded"
         >
           <div>
             <img
-              className="max-w-72"
-              src={selfPicture}
+              className="max-w-72 rounded"
+              src={foto}
               alt="Retrato do profissional de front end sorrindo e olhando diretamente para a câmera"
               loading="lazy"
             />
@@ -168,23 +174,18 @@ function App() {
             <Skill>HTML</Skill>
             <Skill>CSS</Skill>
             <Skill>Javascript</Skill>
-            <Skill>npm</Skill>
             <Skill>Sass</Skill>
             <Skill>Vitejs</Skill>
             <Skill>React</Skill>
+            <Skill>Angular</Skill>
             <Skill>Git</Skill>
-            <Skill>UI Design</Skill>
             <Skill>TailwindCSS</Skill>
           </article>
-        </section>
-        <section id="contact" className="max-w-md mx-auto mb-32">
-          <h2 className="text-3xl font-bold mb-8 ">Vamos conversar!</h2>
-          <Form />
         </section>
       </main>
       <footer className="flex justify-center">
         <small>
-          Feito com ❤️ por{' '}
+          Feito com ❤️ por {' '}
           <a href="https://github.com/juan-galdino" target="_blank">
             Juan Galdino
           </a>
